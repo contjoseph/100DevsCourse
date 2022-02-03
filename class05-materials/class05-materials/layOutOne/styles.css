@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+header,footer{
+    height: 200px;
+    border: 1px solid blue;
+    clear: both;
+}
+section{
+    border: 1px solid green;
+    
+    float: left;
+}
+.oneThird{
+    width: 33.333%;
+    background: lightblue;
+    height: 200px;
+}
+.oneHalf{
+    width: 50%;
+    height: 350px;
+    background: lightgray;
+}

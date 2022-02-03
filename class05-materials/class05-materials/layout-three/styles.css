@@ -1,0 +1,25 @@
+*{
+    
+    box-sizing: border-box;
+}
+header,footer{
+    height: 200px;
+    clear: both;
+    background: lightseagreen;
+    border: 1px solid green;
+}
+nav,main,section,aside{
+    height: 500px;
+    float: left;
+    border: 1px solid green;
+}
+nav,aside{
+    width: 25%;
+    background: lightgray;
+}
+main{
+    width: 35%;
+}
+section{
+    width: 15%;
+}

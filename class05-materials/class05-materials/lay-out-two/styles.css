@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    border: 1px solid blue;
+}
+header{
+    height: 200px;
+    background: lightslategray;
+}
+main{
+    height: 250px;
+    background: lightsteelblue;
+}
+section,aside{
+    float: left;
+    height: 350px;
+    background: lightyellow;
+}
+section{
+    width: 40%;
+}
+aside{
+    width: 60%;
+}
+footer{
+    clear: both;
+    height: 200px;
+    background: lightsalmon;
+}
